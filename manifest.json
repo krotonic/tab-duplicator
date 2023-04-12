@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Duplicator",
+  "version": "1.0",
+  "description": "Duplicate current tab with Ctrl+D",
+  "permissions": ["tabs", "bookmarks"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Tab Duplicator"
+  },
+  "commands": {
+    "duplicate-tab": {
+      "description": "Duplicate Current Tab"
+    }
+  },
+  "key_commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Ctrl+D"
+      }
+    }
+  }
+}
+
