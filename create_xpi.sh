@@ -5,11 +5,12 @@ output_xpi="duplicate_tab.xpi"
 
 # Remove the existing XPI file, if it exists
 if [ -f "$output_xpi" ]; then
-  rm "$output_xpi"
+    echo "Deleting: $output_xpi"
+    rm "$output_xpi"
 fi
 
 # Create a new XPI file by zipping the extension files
-zip -r "$output_xpi" background.js icon.png manifest.json LICENSE
+zip -r "$output_xpi" background.js icon.png manifest.json content.js LICENSE
 
 echo "XPI file created: $output_xpi"
 

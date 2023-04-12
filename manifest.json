@@ -2,8 +2,8 @@
   "manifest_version": 2,
   "name": "Tab Duplicator",
   "version": "1.0",
-  "description": "Duplicate current tab with Ctrl+D",
-  "permissions": ["tabs", "bookmarks"],
+  "description": "Duplicate current tab with Ctrl+Shift+D",
+  "permissions": ["tabs"],
   "background": {
     "scripts": ["background.js"]
   },
@@ -12,15 +12,17 @@
   },
   "commands": {
     "duplicate-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+D"
+      },
       "description": "Duplicate Current Tab"
     }
   },
-  "key_commands": {
-    "duplicate-tab": {
-      "suggested_key": {
-        "default": "Ctrl+D"
-      }
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
     }
-  }
+  ]
 }
 
