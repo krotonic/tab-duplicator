@@ -10,7 +10,7 @@ if [ -f "$output_xpi" ]; then
 fi
 
 # Create a new XPI file by zipping the extension files
-zip -r "$output_xpi" background.js tabicon.png manifest.json content.js LICENSE
+zip -r "$output_xpi" background.js manifest.json content.js LICENSE icons
 
 echo "XPI file created: $output_xpi"
 
