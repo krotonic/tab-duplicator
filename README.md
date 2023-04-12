@@ -1,17 +1,17 @@
 # Tab Duplicator
 
-Tab Duplicator is a simple Firefox plugin that allows you to duplicate the current tab using the Ctrl+D keyboard shortcut. It overrides the default bookmarking behavior of Ctrl+D in Firefox.
+Tab Duplicator is a simple Firefox plugin that allows you to duplicate the current tab using the Ctrl+Shift+D keyboard shortcut. It overrides the default bookmarking behavior of Ctrl+Shift+D in Firefox.
 
 ## Features
 
-- Duplicate the current tab with Ctrl+D
-- Overrides the default Ctrl+D bookmarking behavior
+- Duplicate the current tab with Ctrl+Shift+D
+- Overrides the default Ctrl+Shift+D bookmarking behavior
 
 ## Installation
 
 1. Download the latest release of Tab Duplicator from the [Mozilla Add-ons website](https://addons.mozilla.org/).
 2. Install the plugin in your Firefox browser.
-3. Start using the plugin by pressing Ctrl+D to duplicate the current tab.
+3. Start using the plugin by pressing Ctrl+Shift+D to duplicate the current tab.
 
 ## License
 
