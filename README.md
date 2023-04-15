@@ -9,7 +9,7 @@ Tab Duplicator is a simple Firefox plugin that allows you to duplicate the curre
 
 ## Installation
 
-1. Download the latest release of Tab Duplicator from the [Mozilla Add-ons website](https://addons.mozilla.org/).
+1. Download the latest release of Tab Duplicator from the [Mozilla Add-ons website](https://addons.mozilla.org/firefox/addon/tab-duplicator).
 2. Install the plugin in your Firefox browser.
 3. Start using the plugin by pressing Ctrl+Shift+D to duplicate the current tab.
 
